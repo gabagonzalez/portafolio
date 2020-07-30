@@ -8,24 +8,169 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: #373A3C;
+    color: #660066;
     
 }
 
 /*Section Header-navbar-inicio btn*/
+.navbar {
+    background-image: linear-gradient(141deg, #a9c95a 0%, #1fc8db 51%, #1fc8db 75%);
+}
+.navbar i {
+    color: #660066;
+}
+.nav-link {
+    color: #660066;
+}
+.navbar button {
+    border-color: #660066;
+}
 .nav h2 {
     font-family: 'Lobster', cursive;
     font-size: 2.3125rem;
     font-weight: 400;
     color: #660066;
 }
-nav li, .btn {
+a .nav link {
     font-family: 'Cabin', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     color: #660066;
 }
+/*section-navbar*/
+nav img {
+    height: 4rem;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
 
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
 
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
 
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    }
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-title {
+    font-weight: 700;
+}
+.card a {
+    border-radius: 30%;
+    background-color: #c370ca;
+}
+.rale {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.rale-bold {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel-indicators {
+    top: 25rem;
+    }
+    .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #23d2b5;
+    border-radius: 50%;
+    }
+.texto-header {
+    margin-top: -110px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-shadow: 2px 3px 3px #4b4b4b;
+    background-color: #660066;
+    opacity: 0.7;
+}
+
+.fondo-gradiente {
+    background-image: linear-gradient(141deg, #a9c95a 0%, #1fc8db 51%, #1fc8db 75%);
+}
+
+.card img {
+    height: 200px;    
+    object-fit: cover;
+}
+
+.card {
+    border-color: #5c5c5c;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+hr {
+    background-color: #c2c2c2;
+}
+
+#experiencia img {
+    max-width: 100px;
+}
+#contacto {
+    padding: 0;
+}
+#contacto .screen__CenterContent-sc {
+    padding: 0;
+}
+footer {
+    height: 130px;
+}
+
+footer h2, footer i {
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer i:hover {
+    color: #89e5ff;
+    text-decoration: none;
+}
+
+.texto-exp a {
+    color: #1f1f1f;
+}
+
+.modal-footer {
+    display: block;
+    text-align: center;
+}
+
+.modal-footer a, .modal-footer button {
+    margin: 5px 0;
+}
+
+.modal h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
 
