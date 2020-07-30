@@ -5,8 +5,9 @@
   
 /* Style body */
 body {
-    font-family: 'Cabin', sans-serif;
-    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #373A3C;
     
 }
@@ -16,19 +17,15 @@ body {
     font-family: 'Lobster', cursive;
     font-size: 2.3125rem;
     font-weight: 400;
+    color: #660066;
 }
 nav li, .btn {
     font-family: 'Cabin', sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    color: #660066;
 }
 
 
-/*Section Carrusel*/
 
 
-
-
-/*Section Contacto-footer*/
-
-/* Madia Queries*/
