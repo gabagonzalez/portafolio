@@ -76,8 +76,10 @@ p {
     font-weight: 700;
 }
 .card a {
-    border-radius: 30%;
-    background-color: #c370ca;
+    border-radius: 5%;
+    background-color: rgba(3, 168, 124, 1);
+    border-color:  #660066;
+    
 }
 .rale {
     font-family: 'Raleway', sans-serif;
@@ -123,7 +125,7 @@ p {
 }
 
 .card {
-    border-color: #5c5c5c;
+    border-color:  #660066;
     border-width: 2px;
     border-radius: 5px;
 }
@@ -167,8 +169,13 @@ footer i:hover {
 
 .modal-footer a, .modal-footer button {
     margin: 5px 0;
-}
 
+}
+.modal-footer a {
+    border-radius: 5%;
+    background-color: rgba(3, 168, 124, 1);
+    border-color:  #660066;
+}
 .modal h5 {
     font-size: 18px;
     font-weight: 700;
