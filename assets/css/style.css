@@ -91,7 +91,13 @@ p {
     font-size: 30px;
     font-weight: 700;
 }
-
+.foto {
+    background-image: url('../img/slide-0.png');
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .carousel img {
     height: 400px;
     object-fit: cover;
@@ -180,4 +186,37 @@ footer i:hover {
     font-size: 18px;
     font-weight: 700;
 }
+@media (max-width: 767px) {
+    .foto {
+        background-position: right;
+    }
+}
+@media (min-width: 768px) {
+    
+    h5 {
+        font-size: 14px;
+        font-weight: 700;
+    }
 
+    .texto-exp {
+        text-align: left;
+    }
+
+    footer {
+        height: 120px;
+    }
+
+    footer h2, footer i {
+        margin: 35px 15px;
+    }
+
+    footer h2 {
+        text-align: right;
+        margin-right: -10px;
+    }
+
+    .iconos-rrss {
+        text-align: left;
+    }
+
+}
